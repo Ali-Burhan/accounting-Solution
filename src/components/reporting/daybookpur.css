@@ -1,0 +1,15 @@
+.daybookpurdates{
+    display: none;
+}
+@media print{
+    .btnp{
+        display: none;
+    }
+    span,input,button{
+        display: none;
+    }
+    .daybookpurdates{
+        display: block;
+    } 
+    
+}

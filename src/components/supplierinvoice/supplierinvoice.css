@@ -1,0 +1,76 @@
+.invoicebox{
+    max-width: 800px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+@media print {
+    .sidebar {
+      display: none;
+    }
+    .container1{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .btnf{
+        display: none;
+    }
+    .descs{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .date{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .custom{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    input{
+        display: none;
+    }
+    img{
+        height: 90%;
+        width: 50%;
+    }
+   
+}
+
+
+
+.btnf{
+    background: transparent;
+    border: 1px solid blue;
+    color: blue;
+    padding: 6px 10px ;
+    border-radius: 5px;
+    transition: all .2s;
+    font-weight: 200;
+}
+
+.btnf:hover{
+    background-color: blue;
+    color: white;
+}
+
+.tooltip2{
+display: none;
+background: red;
+padding: 5px;
+color: white;
+font-weight: bold;
+border-radius: 5px;
+}
+
+.fileinput:hover{
+    .tooltip2{
+            display: inline;
+            position: absolute;
+            top: 70%;
+    }
+}

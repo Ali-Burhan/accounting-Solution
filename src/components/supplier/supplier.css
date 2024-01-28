@@ -1,0 +1,13 @@
+.suppliergroup{
+    margin-top: .5%;    
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+}
+.suppliertitle{
+    border: 1px solid grey;
+    background-color: rgb(3, 3, 106) ;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}

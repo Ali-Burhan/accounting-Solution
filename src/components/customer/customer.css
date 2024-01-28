@@ -1,0 +1,50 @@
+.customerinput{
+    width: 100%;
+    height: 32px;
+    outline: none;
+    border: 0.5px solid grey;
+    border-radius: 3px;
+    padding: 0px;
+}
+
+.customerinput:focus{
+    box-shadow: 0px 0px 6px grey;
+}
+
+.btn{
+    background-color: white;
+    color: rgb(159, 8, 8);
+    border: 1px solid rgb(159, 8, 8);
+}
+
+.btn:hover{
+    background-color: rgb(159, 8, 8);
+    color: white;
+}
+.btn100{
+    width: 100%;
+    color: white;
+}
+
+.customergroup{
+    margin-top: 1%;
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid grey;   
+}
+
+.customerbtn{
+    width: 100%;
+}
+
+
+.customertitle{
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(3, 3, 106);
+    color: white;
+}
+.customergroup{
+
+}

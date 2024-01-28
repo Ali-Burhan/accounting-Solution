@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(255, 255, 255);
+        font-family: sans-serif;
+}
+
+.dropgroup{
+    display: flex;
+}
+
+.dropitem{
+    width: 100px;
+}
+
+.borderforgroup{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px grey;
+    border: 1px solid grey;
+}
+

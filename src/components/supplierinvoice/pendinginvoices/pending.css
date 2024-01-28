@@ -1,0 +1,14 @@
+.btn2{
+    background: transparent;
+    padding: 6px 15px;
+    color: green;
+    border-radius: 5px;
+    border: 1px solid green;
+    transition: all .3s;
+}
+
+
+.btn2:hover{
+    background: green;
+    color: white;
+}

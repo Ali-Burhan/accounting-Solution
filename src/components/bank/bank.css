@@ -1,0 +1,53 @@
+.droptoggle{
+    height: 55vh;
+    width: 100%;
+    overflow-y: scroll;
+
+    overflow-x: hidden;
+}
+.btnb{
+  padding: 6px;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid black;
+  color: black;
+  transition: all .5s;
+}
+
+.btnb:hover{
+  background: black;
+  color: white;
+
+}
+/* styles.css */
+
+/* Optional: Reset some default table styles */
+.balancetable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Style the table header cells */
+  .balanceth {
+    background-color: #000000;
+    padding: 10px;
+    text-align: left;
+    color: white;
+  }
+  
+  /* Style the data cells */
+  .balancetd {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Optional: Alternate row background colors for better readability */
+  .balancetbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Optional: Hover effect on rows for better user experience */
+  .balancetbody tr:hover {
+    background-color: #e2e2e2;
+  }
+  
